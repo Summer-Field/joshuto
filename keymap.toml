@@ -86,7 +86,7 @@ keymap = [
   { keys = ["a"], command = "rename_append" },
   { keys = ["A"], command = "rename_prepend" },
 
-  { keys = ["f", "t"], command = ":touch " },
+  { keys = ["i"], command = ":touch " },
 
   { keys = [" "], command = "select --toggle=true" },
   { keys = ["t"], command = "select --all=true --toggle=true" },
@@ -100,7 +100,7 @@ keymap = [
   { keys = [";"], command = ":" },
 
   { keys = ["'"], command = ":shell " },
-	{ keys = ["S"], command = "shell zsh" },
+  { keys = ["S"], command = "shell zsh" },
   { keys = ["m", "k"], command = ":mkdir " },
   { keys = ["M"], command = ":mkdir " },
   { keys = ["c", "w"], command = ":rename " },
@@ -128,6 +128,8 @@ keymap = [
   { keys = ["g", "r"], command = "cd /" },
   { keys = ["g", "c"], command = "cd ~/.config" },
   { keys = ["g", "d"], command = "cd ~/Downloads" },
+  { keys = ["g", "D"], command = "cd ~/Documents" },
+  { keys = ["g", "G"], command = "cd ~/Github" },
   { keys = ["g", "e"], command = "cd /etc" },
   { keys = ["g", "h"], command = "cd ~/" },
   { keys = ["?"], command = "help" },
